@@ -1,3 +1,58 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.welcome {
+  background-color: #2c3e50;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.bootstrap {
+  font-size: 30px;
+
+}
+
+.port, .about, .contact {
+  font-size: 20px;
+  text-align: right;
+}
+
+.bottom-body {
+  width: 941px;
+  height: 724px;
+  background-color: #18bc9c;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10rem;
+}
+
+.text {
+  font-family: lato;
+}
+
+.port-section {
+  font-size: 40px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+
 /*
- * Estilos de tu proyecto
- */
+background-color: #18bc9c
+ 
+background-color: #212529
+
+#2c3e50
+*/
