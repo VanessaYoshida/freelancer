@@ -10,39 +10,85 @@
 
   <body>
     <nav class="welcome">  
-      <h1><span class="bootstrap"> START BOOTSTRAP </span>
-      <span class="port"> PORTIFÓLIO </span>  
-      <span class="about"> ABOUT </span> 
-      <span class="contact"> CONTACT </span></h1>
+      <p class="bootstrap"> START BOOTSTRAP </p>  
+      <p class="menu"> PORTIFÓLIO </p>
+      <p class="menu"> ABOUT </p>
+      <p class="menu"> CONTACT </p>
     </nav>
 
-    <header class="bottom-body">
+    <header class="bottom-body align-text">
       <img class="profile" src="assets/images/profile.png" alt="Foto de Perfil">
-      <h2> START BOOTSTRAP </h2>
-      <p> ________ * ________ </p>
+      <h2 class="start-bootstrap"> START BOOTSTRAP </h2>
+      <img class="star" src="assets/images/portfolio/star-white.png" alt="star">
       <p class="text"> Web Developer - Graphic Artist - User Experience Designer </p>
     </header>
 
-    <section>
-      <p class="port-section"> PORTIFOLIO </p>
-      <p class="port-section"> ________ * ________ </p>
-      <img class="section" src="assets/images/portfolio/cabin.png" alt="cabin">
-      <img class="section" src="assets/images/portfolio/cake.png" alt="cake">
-      <img class="section" src="assets/images/portfolio/circus.png" alt="circus">
-      <img class="section" src="assets/images/portfolio/game.png" alt="game">
-      <img class="section" src="assets/images/portfolio/safe.png" alt="safe">
-      <img class="section" src="assets/images/portfolio/submarine.png" alt="submarine">
+    <section class="portifolio-section align-text">
+      <p> PORTIFOLIO </p>
+      <img class="star" src="assets/images/portfolio/star.svg" alt="star"><br><br>
+      <img class="portifolio-img" src="assets/images/portfolio/cabin.png" alt="cabin">
+      <img class="portifolio-img" src="assets/images/portfolio/cake.png" alt="cake">
+      <img class="portifolio-img" src="assets/images/portfolio/circus.png" alt="circus"> <br>
+      <img class="portifolio-img" src="assets/images/portfolio/game.png" alt="game">
+      <img class="portifolio-img" src="assets/images/portfolio/safe.png" alt="safe">
+      <img class="portifolio-img" src="assets/images/portfolio/submarine.png" alt="submarine">
     </section>
 
-    <section class="bottom-body">
-      <p class="port-section"> ABOUT </p>
-      <p class="port-section"> ________ * ________ </p>
-      <p class="text"> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-
-        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+    <section class="bottom-body about-section align-text">
+      <h3> ABOUT </h3>
+      <img class="star" src="assets/images/portfolio/star-white.png" alt="star">
+      <div class="about">
+      <div class="text text1">
+        <p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        </div>
+        <div class="text text2">
+      <p> Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
+      </div>  
+      </div>
+      <p>Download Now</p>
     </section>
-    <main> 
-    </main>
+
+    <section class="contact align-text">
+      <p class="port-section "> CONTACT ME </p>
+      <img class="star" src="assets/images/portfolio/star.svg" alt="star"> 
+      <form class="form align-text">
+        <div class="dados">
+        <label> Name </label> <br>
+        <input> </input> <br>
+        </div>
+        <div class="dados">
+        <label > Email Address </label> <br>
+        <input> </input> <br>
+        </div>
+        <div class="dados">
+        <label> Phone Number </label> <br>
+        <input> </input> <br>
+        </div>
+        <div class="dados">
+        <label> Message </label> <br>
+        <input> </input> <br>
+        </div>
+        <div class="dados">
+        <input> </input>
+        <button> Send </button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="container2 flex end">
+      <div class="item"> 
+        <h4> Location </h4>
+        <p> 2215 John Daniel Drive /n Clark, MO 65243 </p>
+      </div>
+      <div class="item"> 
+          <h4> AROUND THE WEB </h4>
+          
+      </div>
+      <div class="item"> 
+          <h4> ABOUT FREELANCER </h4>
+          <p> Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap. </p>
+      </div>
+    </footer>
     
   </body>
 </html>
