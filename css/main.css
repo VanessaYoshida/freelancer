@@ -3,32 +3,63 @@ body {
   margin: 0;
 }
 
-.welcome {
-  background-color: #2c3e50;
-  padding-top: 1px;
-  padding-bottom: 1px;
+.color-primary {
   color: white;
+}
+
+.color-secundary {
+  color:  #2c3e50;
+}
+
+.color-tertiary {
+  color:  #18bc9c;
+}
+
+.color-back-primary {
+  background-color: white;
+}
+
+.color-back-secundary {
+  background-color:  #2c3e50;
+}
+
+.color-back-tertiary {
+  background-color:  #18bc9c;
+}
+
+.flex{
   display: flex;
 }
 
-.bootstrap {
-  font-size: 30px;
-  padding-right: 22rem;
-  padding-left: 33rem;
-}
-
 .menu {
-  font-size: 16px;
-  padding-left: 29px;
-  padding-top: 26px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.menu:hover {
+.menu-ul { 
+  list-style: none; 
+  position: relative;
+}
+
+.a-style {
+  text-decoration: none; 
+  padding: 12px; 
+}
+
+.a-style:hover {
   color: #18bc9c;
 }
 
 .align-text {
   text-align: center;
+}
+
+.text {
+  font-family: lato;
+  margin-top: 4px;
+  font-size: 20px;
 }
 
 .profile {
@@ -38,21 +69,23 @@ body {
   padding-top: 6rem;
 }
 
-.start-bootstrap {
-  margin-top: 5px;
-  margin-bottom: 0px;
+.star{
+  width: 20%;
+  border-top: 3px solid;
 }
 
-.star {
-  width: 250px;
-  height: 43px;
-}
-
-.text {
-  font-family: lato;
+.star-white{
+  position: relative;
+  bottom: 3.2rem;
+  background-color: #18bc9c;
   color: white;
-  margin-top: 4px;
-  font-size: 20px;
+}
+
+.star-black{
+  position: relative;
+  bottom: 3.2rem;
+  background-color: white;
+  color: #212529;
 }
 
 .portifolio-section {
@@ -62,20 +95,18 @@ body {
 
 .portifolio-img {
   width: 350px;
-  height: 232px;;
+  height: 232px;
   display: inline-block;
   margin: 6px;
 }
 
 .bottom-body {
-  height: 724px;
+  height: 50%;
   background-color: #18bc9c;
-  color: white;
   font-size: 50px;
 }
 
 .about-section {
-  color: white;
   margin-top: 10px;
 }
 
@@ -83,7 +114,7 @@ body {
   display:flex;
   margin-right: 16px;
 }
-  
+
 .text1 {
   margin-left: 400px; 
   width: 500px;
@@ -94,9 +125,9 @@ body {
 }
 
 .dados input {
-border: none;
-width: 700px;
-border-bottom: 1px solid gray;
+  border: none;
+  width: 700px;
+  border-bottom: 1px solid gray;
 }
 
 .form {
@@ -119,7 +150,6 @@ border-bottom: 1px solid gray;
   height: 50px;
   border-radius: 5px;
   background-color: #18bc9c;
-  color: white;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -134,7 +164,6 @@ border-bottom: 1px solid gray;
   border:none;
   border-radius: 5px;
   background-color: #18bc9c;
-  color: white;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -161,9 +190,7 @@ border-bottom: 1px solid gray;
 }
 
 .end {
-  background-color: #2c3e50;
   font-size: 28px;
-  color: white;
   height: 316px;
 }
 
@@ -171,7 +198,6 @@ border-bottom: 1px solid gray;
   background-color: black;
   height: 80px;
   margin: 0; 
-  color: white;
   text-align: center;
 }
 

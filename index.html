@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title> Freelancer - Start Bootstrap Theme </title>
   </head>
 
   <body>
-    <nav class="welcome">  
-      <p class="bootstrap"> START BOOTSTRAP </p>  
-      <p class="menu"> PORTIFÓLIO </p>
-      <p class="menu"> ABOUT </p>
-      <p class="menu"> CONTACT </p>
+    <nav class="menu color-back-secundary flex">  
+      <h1 class="color-primary" href="/index.html"> START BOOTSTRAP </h1>
+      <ul class="menu-ul flex">
+        <li><a class="a-style color-primary" href="#portifolio"> PORTIFÓLIO </a></li>
+        <li><a class="a-style color-primary" href="#about"> ABOUT </a></li>
+        <li><a class="a-style color-primary" href="#contact"> CONTACT </a></li>
+      </ul>
     </nav>
 
-    <header class="bottom-body align-text">
-      <img class="profile" src="assets/images/profile.png" alt="Foto de Perfil">
+    <header class="bottom-body align-text color-primary color-back-tertiary">
+      <img class="profile" src="assets/images/profile.png">
       <h2 class="start-bootstrap"> START BOOTSTRAP </h2>
-      <img class="star" src="assets/images/portfolio/star-white.png" alt="star">
+      <hr class="star"><i class="fas fa-star star-white"></i></hr>
       <p class="text"> Web Developer - Graphic Artist - User Experience Designer </p>
     </header>
 
-    <section class="portifolio-section align-text">
+    <section id="portifolio" class="portifolio-section align-text">
       <p> PORTIFOLIO </p>
-      <img class="star" src="assets/images/portfolio/star.svg" alt="star"><br><br>
+      <hr class="star"><i class="fas fa-star star-black"></i></hr><br>
       <img class="portifolio-img" src="assets/images/portfolio/cabin.png" alt="cabin">
       <img class="portifolio-img" src="assets/images/portfolio/cake.png" alt="cake">
       <img class="portifolio-img" src="assets/images/portfolio/circus.png" alt="circus"> <br>
@@ -34,9 +37,9 @@
       <img class="portifolio-img" src="assets/images/portfolio/submarine.png" alt="submarine">
     </section>
 
-    <section class="bottom-body about-section align-text">
+    <section id="about" class="bottom-body about-section align-text color-primary">
       <h4> ABOUT </h4>
-      <img class="star" src="assets/images/portfolio/star-white.png" alt="star">
+      <hr class="star"><i class="fas fa-star star-white"></i></hr>
       <div class="about">
       <div class="text text1">
         <p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -45,12 +48,12 @@
         <p> Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
       </div>  
       </div>
-      <button class="button"> Download now! </button>
+      <button class="button color-primary"> Download now! </button>
     </section>
 
-    <section class="align-text">
+    <section id="contact" class="align-text">
       <p class="portifolio-section "> CONTACT ME </p>
-      <img class="star" src="assets/images/portfolio/star.svg" alt="star"> 
+      <hr class="star"><i class="fas fa-star fa-2x star-black"></i></hr><br>
       <form class="form align-text">
         <div class="dados">
           <label> Name </label> <br>
@@ -69,12 +72,12 @@
           <input> </input> <br>
         </div>
         <div class="dados">
-          <button class="button2"> Send </button>
+          <button class="button2 color-primary"> Send </button>
         </div>
       </form>
     </section>
 
-    <footer class="container flex end">
+    <footer class="container flex end color-primary color-back-secundary">
       <div class="item"> 
         <h4> Location </h4>
         <p class="text"> 2215 John Daniel Drive /n Clark, MO 65243 </p>
@@ -88,7 +91,7 @@
     </footer>
     
     <div class="copyright">
-      <span>Copyright © Your Website 2019</span>
+      <span class="color-primary">Copyright © Your Website 2019</span>
     </div>
   </body>
 </html>

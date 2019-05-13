@@ -1,6 +1,6 @@
 # Freelancer
 
-Este projeto feito com o intuito de replicar um site estático. Usamos como base um portifólio que contém um menu, uma foto de perfil, uma descrição, e temas para serem escolhidos. Tem uma seção sobre e a opção de formulário. E um rodapé com informações.
+Este projeto foi feito com o intuito de replicar um site estático proposto pela Laboratória. Usamos como base um portifólio que contém um menu, uma foto de perfil, uma descrição, e temas para serem escolhidos. Tem uma seção sobre e a opção de formulário. E um rodapé com informações.
 
 
 #Sobre o portifólio
